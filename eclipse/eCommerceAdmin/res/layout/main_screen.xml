@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
+
+    <!-- Sample Dashboard screen with Two buttons -->
+    <!-- Button to view all products screen -->
+
+    <Button
+        android:id="@+id/btnViewProducts"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dip"
+        android:drawableLeft="@drawable/ic_todo"
+        android:drawablePadding="-50dip"
+        android:text="@string/c_View_Products"
+        android:textColor="#ffffff"
+        android:textSize="20sp" />
+
+    <!-- Button to create a new product screen -->
+
+    <Button
+        android:id="@+id/btnCreateProduct"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dip"
+        android:drawableLeft="@drawable/ic_add"
+        android:drawablePadding="-50dip"
+        android:text="@string/c_Add_New_Products"
+        android:textColor="#ffffff"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btnShareProduct"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dip"
+        android:drawableLeft="@drawable/ic_share2"
+        android:drawablePadding="-50dip"
+        android:text="@string/c_Share_Products"
+        android:textColor="#ffffff"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btnAdmin"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dip"
+        android:drawableLeft="@drawable/ic_settings"
+        android:drawablePadding="-50dip"
+        android:text="@string/c_Administrator"
+        android:textColor="#ffffff"
+        android:textSize="20sp" />
+    <!-- android:background="@android:color/transparent" android:background="@android:color/darker_gray" -->
+
+    <Button
+        android:id="@+id/buttonAlert"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dip"
+        android:drawableLeft="@drawable/ic_exit"
+        android:drawablePadding="-50dip"
+        android:text="@string/c_Exit"
+        android:textColor="#ffffff"
+        android:textSize="20sp" />
+
+</LinearLayout>

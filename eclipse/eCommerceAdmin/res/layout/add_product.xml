@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <!-- Name Label mmmmmmmm -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="75dip"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dip"
+            android:paddingRight="10dip"
+            android:paddingTop="10dip"
+            android:text="@string/c_Product_Name"
+            android:textSize="17sp" />
+
+        <!-- Input Name -->
+
+        <EditText
+            android:id="@+id/inputName"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dip"
+            android:layout_marginBottom="15dip"
+            android:hint="@string/c_p"
+            android:singleLine="true" >
+
+            <requestFocus />
+        </EditText>
+    </LinearLayout>
+    <!-- Price Label mmmmmmmm -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="65dp"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dip"
+            android:paddingRight="10dip"
+            android:paddingTop="10dip"
+            android:text="@string/c_Price"
+            android:textSize="17sp" />
+
+        <!-- Input Price -->
+
+        <EditText
+            android:id="@+id/inputPrice"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dip"
+            android:layout_marginBottom="15dip"
+            android:ems="10"
+            android:hint="@string/c_price_"
+            android:inputType="number"
+            android:singleLine="true" />
+    </LinearLayout>
+
+    <!-- Tax Label mmmmmmmm -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <!-- AVAILABILITY Label mmmmmmmm -->
+
+        <CheckBox
+            android:id="@+id/inputAvailability"
+            android:layout_width="120dip"
+            android:layout_height="fill_parent"
+            android:text="@string/c_Availability" />
+
+        <TextView
+            android:layout_width="65dp"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dip"
+            android:paddingRight="10dip"
+            android:paddingTop="10dip"
+            android:text="@string/c_Tax"
+            android:textSize="17sp" />
+
+        <!-- Input tax -->
+
+        <EditText
+            android:id="@+id/inputTax"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dip"
+            android:layout_marginBottom="15dip"
+            android:hint="@string/c_price_"
+            android:inputType="number"
+            android:singleLine="true" />
+    </LinearLayout>
+
+    <!-- SIZE Label mmmmmmmm -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="65dip"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dip"
+            android:paddingRight="10dip"
+            android:paddingTop="10dip"
+            android:text="@string/c_size"
+            android:textSize="17sp" />
+
+        <!-- Input SIZE -->
+
+        <EditText
+            android:id="@+id/inputSize"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dip"
+            android:layout_marginBottom="15dip"
+            android:hint="@string/c_size_"
+            android:inputType="text"
+            android:singleLine="true"
+            />
+    </LinearLayout>
+    <!-- CATEGORIES Label mmmmmmmm -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="105dip"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dip"
+            android:paddingRight="10dip"
+            android:paddingTop="10dip"
+            android:text="@string/c_Categories"
+            android:textSize="17sp" />
+
+        <!-- Input CATEGORIES -->
+
+        <EditText
+            android:id="@+id/inputCategories"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dip"
+            android:layout_marginBottom="15dip"
+            android:hint="@string/c_p"
+            android:inputType="textAutoComplete"
+            android:singleLine="true" />
+    </LinearLayout>
+
+    <!-- Description Label mmmmmmmm -->
+
+
+    <!-- Input description -->
+
+    <EditText
+        android:id="@+id/inputDesc"
+        android:layout_width="fill_parent"
+        android:layout_height="85dp"
+        android:layout_margin="5dip"
+        android:layout_marginBottom="15dip"
+        android:gravity="top"
+        android:hint="@string/c_Description"
+        android:inputType="textAutoCorrect"
+        android:lines="4" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <!-- Url text mmmmmmmm -->
+
+        <TextView
+            android:id="@+id/adresseURL"
+            android:layout_width="236dp"
+            android:layout_height="wrap_content"
+            android:hint="@string/c_URL"
+            android:lines="1" />
+
+        <!-- Button image -->
+
+        <Button
+            android:id="@+id/btnShareImageProduct"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawablePadding="1dip"
+            android:drawableTop="@drawable/ic_syn"
+            android:onClick="buttonClicks"
+            android:text="@string/c_Share_Image_Products" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <!-- Button Create Product -->
+
+        <Button
+            android:id="@+id/btnCreateProduct"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/yes"
+            android:drawablePadding="5dip"
+            android:text="@string/c_Create_Product" >
+        </Button>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/btnNext"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:drawableLeft="@drawable/no"
+            android:drawablePadding="5dip"
+            android:text="@string/c_Next" />
+
+        <Button
+            android:id="@+id/btnReturn"
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|center"
+            android:drawableLeft="@drawable/ic_return"
+            android:drawablePadding="5dip"
+            android:text="@string/c_Return" >
+        </Button>
+    </LinearLayout>
+
+</LinearLayout>

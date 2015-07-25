@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">eCommerce Admin</string>
+    <string name="FB_ID">306431042791974</string>
+    <string name="php_ID">jov5K2xVn8OUrBbQU58SWf8Zb7nhGPtb0544</string>
+    <string name="c_Exit">Exit</string>
+    <string name="c_Add_New_Products">Add New Products</string>
+    <string name="c_Share_Products">Share Products</string>
+    <string name="c_View_Products">View Products</string>
+    <string name="c_Product_Name">Name</string>
+    <string name="c_Price">Price</string>
+    <string name="c_Description">Description</string>
+    <string name="c_Create_Product">Create Product</string>
+    <string name="c_Save_Changes">Save Changes</string>
+    <string name="c_Load_Changes">Load Changes</string>
+    <string name="c_Administrator">Configuration</string>
+    <string name="c_Delete">Delete product</string>
+    <string name="c_Return">Return</string>
+    <string name="c_Next">Next</string>
+    <string name="c_Share_Image_Products">Image</string>
+    <string name="c_Upload_Picture">Upload Picture</string>
+    <string name="c_Select_Picture">Select Picture</string>
+    <string name="c_Link_Default_Picture">Link Default Picture:</string>
+    <string name="c_Hach_Code">Hach Code:</string>
+    <string name="c_search_products">Search products..</string>
+    <string name="c_p"> .. </string>
+    <string name="c_URL">URL..</string>
+    <string name="c_Tax">Tax</string>
+    <string name="c_size">Size</string>
+    <string name="c_Categories">Categories</string>
+    <string name="c_Availability">Availability</string>
+    <string name="c_price_">0.00</string>
+    <string name="c_size_">34,36,38,40</string>
+    <string name="c_Product_Ref">Ref</string>
+    <string name="c_Product_date">Created at</string>
+    
+    
+
+</resources>

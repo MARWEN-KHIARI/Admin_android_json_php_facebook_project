@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/imgView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15px"
+        android:layout_weight="1" />
+
+    <TextView
+        android:id="@+id/textViewAdrLocal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15px"
+        android:hint="Address:"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/textViewAdrNet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15px"
+        android:hint="URL:"
+        tools:ignore="HardcodedText" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/buttonLoadPicture"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:drawableLeft="@drawable/ic_todo"
+            android:drawablePadding="5dip"
+            android:text="@string/c_Select_Picture" >
+        </Button>
+
+        <Button
+            android:id="@+id/buttonSendPicture"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:drawableLeft="@drawable/ic_syn"
+            android:drawablePadding="5dip"
+            android:text="@string/c_Upload_Picture" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/buttonReturn"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center"
+        android:drawablePadding="5dip"
+        android:drawableLeft="@drawable/ic_return"        
+        android:text="@string/c_Return" >
+    </Button>
+
+</LinearLayout>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout     
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <!-- Main ListView Always give id value as list(@android:id/list) -->
+<!-- 
+    <alpha 
+        android:id="@+id/anim1"
+        android:fromAlpha="0.0" android:toAlpha="1.0" 
+     android:interpolator="@android:anim/accelerate_interpolator" 
+   android:duration="4000"
+    android:repeatCount="infinite"/>
+     -->
+     
+     
+    <EditText
+        android:id="@+id/inputSearch"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/c_search_products"
+        android:inputType="textVisiblePassword" />
+
+    <ListView
+        android:id="@android:id/list"
+        android:layout_width="wrap_content"
+        android:layout_height="0dip"
+        android:layout_weight="1.02" />
+ 
+
+    <Button
+        android:id="@+id/btnReturn"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center"
+        android:layout_margin="15dp"
+           android:drawablePadding="5dip"
+        android:drawableLeft="@drawable/ic_return"    
+        android:text="@string/c_Return" >
+    </Button>
+
+</LinearLayout>

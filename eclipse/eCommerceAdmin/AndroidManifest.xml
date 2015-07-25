@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.eCommerce.GestionProduit"
+    android:versionCode="1"
+    android:versionName="1.0" >
+ 
+    <uses-sdk android:minSdkVersion="8" />
+ 
+    <application
+        android:configChanges="keyboardHidden|orientation"
+        android:icon="@drawable/app_logo_xhdpi"
+        android:label="@string/app_name" android:allowClearUserData="false" android:debuggable="false" android:enabled="true" android:testOnly="false" android:persistent="true">
+ 
+        <activity
+            android:name=".MainScreenActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+ 
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+ 
+        <!-- All Product Activity -->
+        <activity
+            android:name=".AllProductsActivity"
+            android:label="All Products" >
+        </activity>
+ 
+        <!-- Add Product Activity -->
+        <activity
+            android:name=".NewProductActivity"
+            android:label="Add New Product" >
+        </activity>
+ 
+        <!-- Edit Product Activity -->
+        <activity
+            android:name=".EditProductActivity"
+            android:label="Edit Product" >
+        </activity>
+        <!-- All Product Activity 2share-->
+        <activity
+            android:name=".AllProductsShareActivity"
+            android:label="All Products Share" >
+        </activity>
+        <!-- Share Product Activity -->
+        <activity
+            android:name="FacebookShareActivity"
+            android:label="Share Product" >
+        </activity>
+         <!-- Select Image Product Activity -->
+        <activity
+            android:name="ImageSelectActivity"
+            android:label="Image Product" >
+        </activity>
+     	<activity
+            android:name="AdminActivity"
+            android:label="Administrator tools" >
+        </activity>
+        
+    </application>
+ 
+    <!--  Internet Permissions -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <!--  Camera Permissions -->
+    <uses-permission android:name="android.permission.CAMERA" />
+     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    
+    
+ 
+</manifest>
